@@ -1,0 +1,84 @@
+---
+title: "Data and Methods"
+---
+## Data
+
+### Data Sources
+
+This project uses publicly available privacy policy documents as its primary data source. The sample includes the privacy policies of three menstrual tracking and women’s health applications: Flo, Clue, and Ovia. These documents are treated as textual data because they contain the official language through which each company explains how it collects, uses, shares, analyzes, stores, and protects users’ personal and reproductive health information.
+
+Unlike a quantitative dataset made up of rows and variables, the data in this project consists of policy texts. These texts are important because privacy policies are one of the main ways digital health companies communicate their data practices to users. In the notice-and-consent model of digital privacy, users are often expected to read or accept these policies before using a service. Therefore, the wording, structure, specificity, and readability of the privacy policy are central to whether user consent can be considered meaningful.
+
+The three privacy policies analyzed in this project are:
+
+1. **Flo Privacy Policy:** Flo is a menstrual cycle, ovulation, fertility, pregnancy, and women’s health tracking app. Its privacy policy describes the collection of account information, menstrual cycle details, pregnancy-related information, symptoms, sex life, physical and mental health information, device information, usage data, and data from third-party services such as Apple HealthKit and Google Health Connect. It also discusses advertising, analytics, service providers, commercial partners, data retention, and security.
+
+2. **Clue Privacy Policy:** Clue is a period and reproductive health tracking app. Its privacy policy is organized around three major types of data: account data, usage data, and health data. Clue defines health data as information users choose to track in the app, including cycle information, period length, pain, spotting, weight, body temperature, hair quality, sexual intercourse, and data imported from integrations such as Apple Health or supported fitness trackers. The policy also discusses essential third-party providers, scientific research, health analytics, advertising optimization, website analytics, newsletters, surveys, data transfers, rights, and security procedures.
+
+3. **Ovia Health by Labcorp Apps Privacy Policy:** Ovia provides fertility, pregnancy, parenting, health coaching, and related services. Its policy covers both the free consumer version of the app and the enhanced Ovia+ version, which may be provided through employers, health plans, or health care providers. Ovia’s policy lists broad categories of data, including identifiers, health information, legally protected classifications, biometric information, internet and app activity, geolocation, audio and visual information, professional and employment information, inferences, and sensitive information. It also discusses advertising, analytics, data retention, deidentified data, aggregated data, research, and employer or health plan contexts.
+
+### Rationale for Case Selection
+
+Flo, Clue, and Ovia were selected because they represent widely recognized examples of femtech and reproductive health applications. Each app is connected to menstrual, fertility, pregnancy, or reproductive health tracking, and each collects information that may be highly sensitive. These apps are especially relevant for a data ethics analysis because the information users enter into them may include menstrual cycle patterns, pregnancy status, fertility goals, symptoms, sexual activity, physical health, mental health, and other intimate details.
+
+The three apps also provide useful variation for comparison. Flo’s policy is detailed and includes specific discussion of advertising and analytics partners, such as AppsFlyer, Firebase, and TikTok Ad Manager. Clue’s policy is more clearly structured around account data, usage data, and health data, and repeatedly emphasizes that tracked health data is not shared with advertisers. Ovia’s policy has the broadest scope because it covers fertility, pregnancy, parenting, health coaching, employer or health-plan sponsored services, deidentified data, aggregated data, and research-related uses. Comparing these three policies makes it possible to examine not only whether privacy disclosures exist, but also how clear, specific, and usable those disclosures are.
+
+This sample is not intended to represent every femtech app on the market. Instead, the purpose is to conduct a focused comparative textual analysis of three prominent cases. The sample is appropriate for this project because the goal is not to make a statistical claim about all femtech companies, but to analyze how privacy policy language operates in a high-sensitivity data context.
+
+### Data Collection Procedure
+
+The privacy policy texts were collected manually from the official websites of each company. Manual collection was appropriate for this project because the sample size is small and because the analysis requires close reading rather than large-scale automated scraping. The goal was to identify the sections of each policy that describe data collection, data use, third-party sharing, advertising, analytics, retention, security, and sensitive reproductive health information.
+
+For each privacy policy, I reviewed the table of contents or section headings and focused on portions of the policy most relevant to informed consent. These included sections describing personal data collected from users, how personal data is used, whether data is shared with third parties, whether advertising or analytics partners receive data, how long data is retained, and whether sensitive reproductive health data is treated separately from general personal data.
+
+During data collection, I recorded key phrases and policy language that directly described data practices. Examples include terms such as “health data,” “special category data,” “sensitive information,” “third-party providers,” “advertising,” “analytics,” “research partners,” “deidentified data,” “aggregated data,” “legitimate interests,” “may share,” and “as permitted by law.” These phrases became the basis for the coding categories used in the analysis.
+
+## Method
+
+### Analytical Method: Comparative Textual Analysis
+
+This project uses comparative textual analysis as its main method. Comparative textual analysis is appropriate because the research question focuses on language, disclosure, and interpretability. Rather than measuring user behavior directly, this method examines how the companies themselves describe their data practices and whether those descriptions are specific enough to support meaningful informed consent.
+
+The analysis proceeded in three stages. First, I conducted a close reading of each privacy policy. I identified the sections that discuss sensitive reproductive health data, data collection, data use, third-party sharing, advertising, analytics, research, retention, and user rights. Second, I coded each policy according to a shared set of categories. Third, I compared the three apps to evaluate differences in clarity, specificity, and complexity.
+
+The coding process was designed to connect the empirical privacy policy texts to the project’s central conceptual question: whether formal disclosure is sufficient for meaningful informed consent. A policy may technically disclose data practices, but if those disclosures are scattered, vague, overly broad, or difficult to understand, then users may still be unable to make an informed choice about whether to use the app or share sensitive data.
+
+### Coding Categories
+
+Each privacy policy was coded using the same categories. These categories were selected because they reflect the main dimensions of informed consent in the context of reproductive health data. In particular, the coding scheme focuses on whether users can understand what data is collected, why it is collected, who receives it, whether it is used for advertising or analytics, how long it is retained, and whether the policy uses broad or ambiguous language.
+
+| Coding Category | Analytical Purpose |
+|---|---|
+| What sensitive data is collected? | Identifies whether the app collects menstrual, fertility, pregnancy, sexual activity, symptoms, physical health, mental health, or other reproductive health information. |
+| How is data collection explained? | Examines whether the policy clearly distinguishes between data provided directly by users, data collected automatically, data imported from other services, and data received from external sources. |
+| Is sensitive reproductive data clearly labeled? | Evaluates whether the policy explicitly names reproductive health data or places it inside broader categories such as “health information,” “personal data,” or “sensitive information.” |
+| Is third-party sharing mentioned? | Identifies whether the policy explains sharing with service providers, advertising partners, analytics providers, research partners, commercial partners, employers, health plans, or other third parties. |
+| Is advertising mentioned? | Examines whether the policy discloses the use of personal data for advertising, marketing, ad attribution, retargeting, or campaign optimization. |
+| Is analytics mentioned? | Examines whether the policy discusses app analytics, health analytics, website analytics, research analytics, technical performance analytics, or advertising analytics. |
+| What vague phrases appear? | Identifies broad or ambiguous language, such as “may share,” “legitimate interests,” “business purposes,” “partners,” “as permitted by law,” or “improve services.” |
+| Does it have a plain-language summary? | Assesses whether the policy uses summaries, tables, examples, visual explanations, or clear section headings that make the policy easier for users to understand. |
+| How long is data retained? | Examines whether the policy clearly explains retention periods, account deletion, backup deletion, inactivity rules, and exceptions to deletion. |
+
+### Operationalizing Meaningful Informed Consent
+
+A key methodological issue in this project is how to operationalize “meaningful informed consent.” In many digital privacy settings, informed consent is weakly operationalized as the existence of a privacy policy or the user’s formal agreement to the policy. However, this project treats that operationalization as insufficient. The mere presence of a privacy policy does not show that users can understand how their sensitive data is collected, shared, analyzed, retained, or used for secondary purposes.
+
+In this project, the conceptual variable is **meaningful informed consent**. The weaker operationalization would be whether a privacy policy exists. A stronger operationalization asks whether the privacy policy is clear, specific, readable, and usable for ordinary users. Therefore, this project evaluates privacy policies not only by whether they disclose data practices, but also by whether those disclosures are understandable and actionable.
+
+| Concept | Operationalization in This Project |
+|---|---|
+| Conceptual variable | Meaningful informed consent |
+| Weak operationalization | The mere existence of a privacy policy or a formal user agreement |
+| Stronger operationalization | Whether the policy clearly explains sensitive data collection, data use, third-party sharing, advertising, analytics, retention, and user choices |
+
+This operationalization is especially important because reproductive health data is highly sensitive. Users may reasonably expect information about menstrual cycles, fertility goals, pregnancy, sexual activity, symptoms, and health conditions to be handled differently from ordinary app usage data. If a policy does not clearly explain how these categories are collected and used, then user consent may be formal rather than meaningful.
+
+### Limitations
+
+This project has several limitations. First, it analyzes privacy policy language rather than actual company data practices. A privacy policy describes what a company says it does, but it does not independently verify what happens in the app’s technical infrastructure. Second, the project analyzes three apps rather than the entire femtech market. The findings therefore should be understood as a focused comparison rather than a general statistical claim. Third, the analysis does not include user interviews or surveys, so it cannot directly measure whether users actually understand these privacy policies.
+
+Despite these limitations, privacy policies are still important objects of analysis. They are the primary documents through which companies present their data practices to users, regulators, and the public. If these documents are vague or difficult to understand, that itself is a meaningful data ethics problem. In a context involving sensitive reproductive health data, the quality of disclosure is directly connected to whether consent can be considered informed.
+
+### Summary of Methodological Approach
+
+In summary, this project analyzes the privacy policies of Flo, Clue, and Ovia as textual data. It uses comparative textual analysis to examine how each app describes sensitive reproductive health data, third-party sharing, advertising, analytics, retention, and user choices. The analysis is guided by the course concept of operationalization: rather than assuming that the existence of a privacy policy equals informed consent, this project evaluates whether each policy provides clear, specific, and usable disclosure. This approach allows the project to compare formal privacy disclosure with the stronger ethical standard of meaningful informed consent.

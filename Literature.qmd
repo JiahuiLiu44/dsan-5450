@@ -1,0 +1,94 @@
+---
+title: "Literature Review"
+---
+
+This literature review uses four main sources to build the theoretical foundation of this project. The four sources are Daniel Solove’s “Privacy Self-Management and the Consent Dilemma,” McDonald and Cranor’s “The Cost of Reading Privacy Policies,” Obar and Oeldorf-Hirsch’s “The Biggest Lie on the Internet,” and Helen Nissenbaum’s “Privacy as Contextual Integrity.” These sources are useful because they help explain why privacy policies may fail to produce meaningful informed consent, even when companies formally disclose their data practices.
+
+## Solove: Privacy Self-Management and the Consent Dilemma
+
+Daniel Solove’s article “Privacy Self-Management and the Consent Dilemma” is important because it directly challenges the idea that individual consent can solve most privacy problems. Solove explains that many modern privacy systems are based on “privacy self-management.” Under this model, companies disclose their privacy practices, and individuals are expected to decide whether to agree. This approach appears to respect user autonomy because it gives people choice. However, Solove argues that this model is limited because it asks individuals to manage privacy decisions in environments that are too complex for ordinary users to fully understand.
+
+The key problem Solove identifies is that consent is often treated as if it can legitimize almost any form of data collection, use, or disclosure. If a company provides notice and the user agrees, then the company can claim that the user consented. But Solove argues that this does not necessarily mean the user had meaningful control. In reality, users may face long privacy policies, unclear consequences, complicated data flows, and too many privacy decisions across many platforms. Even if users technically have a choice, that choice may not be very meaningful.
+
+Solove’s argument is especially useful for this project because femtech apps rely heavily on privacy policies and user consent. Apps like Flo, Clue, and Ovia collect highly sensitive reproductive health data, including menstrual cycle information, fertility goals, pregnancy-related data, symptoms, sexual activity, health conditions, and app usage data. If users agree to these privacy policies without understanding how their data may be collected, analyzed, shared, retained, or used for secondary purposes, then consent becomes formal rather than meaningful.
+
+For this project, Solove helps frame the main ethical problem: the existence of a privacy policy should not automatically be treated as evidence of informed consent. A user may click “I agree,” but that does not mean the user understands the company’s data practices. This is the central issue in this project. Flo, Clue, and Ovia all provide privacy policies, but the project asks whether those policies are specific and understandable enough to support meaningful informed consent.
+
+## McDonald and Cranor: The Cost of Reading Privacy Policies
+
+McDonald and Cranor’s article “The Cost of Reading Privacy Policies” focuses on the practical burden of privacy policies. Their work shows that privacy policies require time and effort to read. If users were expected to read the privacy policy for every website, app, or digital service they use, the total time burden would be extremely high. This means that the notice-and-consent model depends on an unrealistic expectation: that users have the time and attention to read every policy carefully.
+
+This article is important because it shifts the discussion from whether privacy policies are available to whether users can realistically use them. A privacy policy may be public, but that does not mean it is practically useful. If the policy is long, dense, technical, or legalistic, users may skip it or fail to understand it. In this sense, the reading burden becomes part of the privacy problem. The user is expected to protect themselves by reading, comparing, and interpreting privacy documents, but the design of these documents often makes that responsibility unrealistic.
+
+This point is highly relevant to reproductive health apps. The privacy policies of Flo, Clue, and Ovia are not short notices. They include many sections on data categories, health data, third-party service providers, analytics, advertising, research, retention, security, deletion, user rights, and legal bases for processing. A user who wants to understand these policies must read through a large amount of information and understand distinctions between health data, usage data, device identifiers, advertising identifiers, service providers, processors, research partners, employers, health plans, and deidentified data.
+
+McDonald and Cranor’s work helps explain why “more disclosure” does not always solve the problem. A company may provide a detailed privacy policy, but if the policy is too long or complicated, the user may not be able to benefit from that detail. This is especially important in the context of sensitive reproductive health data. Users may be sharing intimate information about their bodies and lives, but the explanation of how that data is handled may require too much time and expertise to understand.
+
+For this project, this source supports the coding category about plain-language summaries and readability. It helps justify why the project does not simply ask whether Flo, Clue, and Ovia disclose data practices. Instead, it asks whether those disclosures are usable for ordinary users. A policy that is technically complete but difficult to read may still fail to support meaningful informed consent.
+
+## Obar and Oeldorf-Hirsch: The Biggest Lie on the Internet
+
+Obar and Oeldorf-Hirsch’s article “The Biggest Lie on the Internet” studies how users interact with privacy policies and terms of service. The title refers to the common online behavior of clicking “I agree” even though users have not actually read or understood the policy. Their empirical study found that many users ignored privacy policies and terms of service when joining a fictitious social networking service. This finding challenges the assumption that clicking agreement represents informed consent.
+
+This article is useful because it adds empirical support to the critique of notice-and-consent. Solove explains the theoretical limits of privacy self-management, while Obar and Oeldorf-Hirsch show that users often do not engage with privacy policies in practice. The problem is not only that policies are hard to understand. The problem is also that users often skip them entirely because they want to access the service quickly or because reading the policy seems too burdensome.
+
+For reproductive health apps, this is a serious concern. Users may download Flo, Clue, or Ovia because they want a practical health-related service: predicting a period, tracking ovulation, monitoring pregnancy, receiving symptom insights, or understanding reproductive health patterns. In that moment, users may be focused on the app’s immediate benefit rather than the privacy policy. They may click through the policy quickly without reading sections on analytics, advertising, research, third-party providers, retention, or deletion rights.
+
+This article helps explain why formal agreement is a weak indicator of user understanding. If users commonly skip privacy policies, then the act of agreeing does not prove that users understand how data will be collected or shared. This is especially important for femtech apps because the data involved is much more sensitive than ordinary app data. Clicking “I agree” to share menstrual cycle data, pregnancy information, sexual activity, or health symptoms should require a higher standard of clarity than agreeing to an ordinary consumer app.
+
+For this project, Obar and Oeldorf-Hirsch support the argument that meaningful informed consent cannot be reduced to a checkbox or acceptance button. Their work helps justify why this project examines the content and clarity of privacy policies rather than assuming that consent is meaningful simply because users accepted the terms.
+
+## Nissenbaum: Privacy as Contextual Integrity
+
+Helen Nissenbaum’s article “Privacy as Contextual Integrity” provides a different but very important way to think about privacy. Nissenbaum argues that privacy is not only about whether information is secret or public. Instead, privacy depends on whether information flows appropriately within a specific social context. According to contextual integrity, a privacy problem occurs when information moves in ways that violate the norms or expectations of the context in which it was originally shared.
+
+This idea is very important for reproductive health apps. When users enter data into a menstrual tracking app, they may believe they are sharing that information for a specific purpose: tracking cycles, predicting ovulation, understanding symptoms, monitoring pregnancy, or receiving health insights. The original context is personal health management. However, if related data flows into advertising systems, analytics platforms, research partnerships, employer benefit programs, health plan services, or commercial data products, the information may move beyond the context users expected.
+
+Nissenbaum’s theory helps explain why reproductive health data is not just another type of consumer data. Menstrual cycles, fertility, pregnancy, sexual activity, symptoms, and health conditions are highly context-sensitive. These data points may be acceptable in one context, such as personal health tracking, but feel inappropriate in another context, such as advertising attribution or employer-sponsored health benefits. The ethical question is not only whether the company disclosed the data flow. The question is also whether the data flow fits the user’s expectations for that context.
+
+This framework is useful for comparing Flo, Clue, and Ovia. Flo discusses advertising and analytics partners while stating that health data is not shared for advertising. Clue separates health data from usage data and repeatedly emphasizes that tracked health data is not shared with advertisers. Ovia has a broader context because it includes fertility, pregnancy, parenting, health coaching, Ovia+, employers, health plans, research, and deidentified or aggregated data. Nissenbaum’s theory helps explain why these differences matter: the more contexts data can move through, the harder it becomes for users to understand whether the data flow is appropriate.
+
+For this project, contextual integrity supports the idea that privacy policies should clearly explain not only what data is collected, but also where it goes and why. A user’s consent is not meaningful if the user cannot understand how reproductive health data or related technical data may move across different social, commercial, medical, research, and institutional contexts.
+
+## My Application and Understanding
+
+After reviewing these four sources, my understanding is that the main issue in this project is not simply privacy policy existence. The deeper issue is whether privacy policies can actually support meaningful informed consent in a high-sensitivity data context. These four sources work together to explain why that is difficult.
+
+- Solove helps me understand the weakness of privacy self-management. His argument shows that privacy systems often depend too much on individual users to read, understand, and manage complex data practices. I apply this to Flo, Clue, and Ovia by arguing that users should not be expected to fully manage reproductive health privacy simply by reading long privacy policies.
+
+- McDonald and Cranor help me understand the reading burden. Their work shows that privacy policies create a real time cost. I apply this by looking at whether each app’s policy is readable, organized, and usable. This connects to my coding category about plain-language summaries and policy structure.
+
+- Obar and Oeldorf-Hirsch help me understand why clicking “I agree” is not enough. Their study shows that users often ignore privacy policies and terms of service. I apply this by arguing that formal agreement does not prove meaningful consent, especially when the data includes menstrual cycle information, pregnancy data, sexual activity, symptoms, and health conditions.
+
+- Nissenbaum helps me understand why context matters. Her theory of contextual integrity shows that privacy depends on appropriate information flows. I apply this by asking whether reproductive health data stays within the expected context of personal health tracking or moves into other contexts such as advertising, analytics, research, employer benefits, health plans, or commercial partnerships.
+
+Together, these sources help me operationalize “meaningful informed consent.” In this project, I do not treat informed consent as simply the existence of a privacy policy or the user’s click on an agreement button. Instead, I treat meaningful informed consent as something that depends on whether users can clearly understand:
+
+- what sensitive data is collected;
+- why the data is collected;
+- whether the data is shared with third parties;
+- whether the data is used for advertising or analytics;
+- whether reproductive health data is separated from ordinary usage data;
+- how long the data is retained;
+- whether users can delete or control their data;
+- and whether the policy uses vague language that makes data practices harder to interpret.
+
+This is why my analysis focuses on privacy policy language. Flo, Clue, and Ovia all provide formal disclosures, but the ethical question is whether those disclosures are actually understandable. Based on the literature, I understand consent as a stronger standard than simple agreement. Meaningful consent requires clarity, specificity, and usability.
+
+This literature also helps me understand the ethical stakes of the project. Reproductive health data is intimate and context-sensitive. If a user enters period dates, pregnancy information, fertility goals, symptoms, sexual activity, or health conditions into an app, they may reasonably expect that data to be used for personal health support. If the data, or related technical and behavioral data, is connected to advertising, analytics, research, employers, health plans, or deidentified commercial datasets, then users need especially clear explanations. Without that clarity, consent may be legally formal but ethically weak.
+
+## Summary
+
+The four sources reviewed in this section provide the theoretical foundation for this project. Solove shows that privacy self-management and consent-based systems often fail because users cannot realistically manage all privacy decisions on their own. McDonald and Cranor show that reading privacy policies creates a major time and attention burden. Obar and Oeldorf-Hirsch show that many users do not read privacy policies or terms of service before agreeing. Nissenbaum shows that privacy depends on whether information flows appropriately within a given context.
+
+Together, these sources support the central argument of this project: a privacy policy should not be treated as equivalent to meaningful informed consent. For femtech apps, this distinction is especially important because the data involved is highly sensitive. Menstrual cycles, fertility goals, pregnancy, symptoms, sexual activity, and health information require stronger privacy protections and clearer explanations than ordinary app data. Therefore, this project evaluates the privacy policies of Flo, Clue, and Ovia based on clarity, specificity, readability, third-party sharing, advertising, analytics, retention, and the treatment of sensitive reproductive health data.
+
+## References
+
+McDonald, A. M., & Cranor, L. F. (2008). The cost of reading privacy policies. *I/S: A Journal of Law and Policy for the Information Society, 4*(3), 543–568. https://lorrie.cranor.org/pubs/readingPolicyCost-authorDraft.pdf
+
+Nissenbaum, H. (2004). Privacy as contextual integrity. *Washington Law Review, 79*(1), 119–158. https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/
+
+Obar, J. A., & Oeldorf-Hirsch, A. (2020). The biggest lie on the Internet: Ignoring the privacy policies and terms of service policies of social networking services. *Information, Communication & Society, 23*(1), 128–147. https://www.tandfonline.com/doi/full/10.1080/1369118X.2018.1486870
+
+Solove, D. J. (2013). Privacy self-management and the consent dilemma. *Harvard Law Review, 126*, 1880–1903. https://harvardlawreview.org/print/vol-126/introduction-privacy-self-management-and-the-consent-dilemma/
