@@ -6,7 +6,7 @@ This literature review uses four main sources to build the theoretical foundatio
 
 ## Solove: Privacy Self-Management and the Consent Dilemma
 
-Daniel Solove’s article “Privacy Self-Management and the Consent Dilemma” is important because it directly challenges the idea that individual consent can solve most privacy problems. Solove explains that many modern privacy systems are based on “privacy self-management.” Under this model, companies disclose their privacy practices, and individuals are expected to decide whether to agree. This approach appears to respect user autonomy because it gives people choice. However, Solove argues that this model is limited because it asks individuals to manage privacy decisions in environments that are too complex for ordinary users to fully understand.
+Solove [-@solove2013] challenges the idea that individual consent can solve most privacy problems. He explains that many modern privacy systems are based on “privacy self-management.” Under this model, companies disclose their privacy practices, and individuals are expected to decide whether they agree. This approach appears to respect user autonomy because it gives people choice. However, Solove argues that this model is limited because it asks individuals to manage privacy decisions in environments that are too complex for ordinary users to fully understand.
 
 The key problem Solove identifies is that consent is often treated as if it can legitimize almost any form of data collection, use, or disclosure. If a company provides notice and the user agrees, then the company can claim that the user consented. But Solove argues that this does not necessarily mean the user had meaningful control. In reality, users may face long privacy policies, unclear consequences, complicated data flows, and too many privacy decisions across many platforms. Even if users technically have a choice, that choice may not be very meaningful.
 
@@ -16,7 +16,7 @@ For this project, Solove helps frame the main ethical problem: the existence of 
 
 ## McDonald and Cranor: The Cost of Reading Privacy Policies
 
-McDonald and Cranor’s article “The Cost of Reading Privacy Policies” focuses on the practical burden of privacy policies. Their work shows that privacy policies require time and effort to read. If users were expected to read the privacy policy for every website, app, or digital service they use, the total time burden would be extremely high. This means that the notice-and-consent model depends on an unrealistic expectation: that users have the time and attention to read every policy carefully.
+McDonald and Cranor [-@mcdonald2008] focus on the practical burden of privacy policies. Their work shows that privacy policies require time and effort to read. If users were expected to read the privacy policy for every website, app, or digital service they use, the total time burden would be extremely high. This means that the notice-and-consent model depends on an unrealistic expectation: that users have the time and attention to read every policy carefully.
 
 This article is important because it shifts the discussion from whether privacy policies are available to whether users can realistically use them. A privacy policy may be public, but that does not mean it is practically useful. If the policy is long, dense, technical, or legalistic, users may skip it or fail to understand it. In this sense, the reading burden becomes part of the privacy problem. The user is expected to protect themselves by reading, comparing, and interpreting privacy documents, but the design of these documents often makes that responsibility unrealistic.
 
@@ -28,7 +28,7 @@ For this project, this source supports the coding category about plain-language 
 
 ## Obar and Oeldorf-Hirsch: The Biggest Lie on the Internet
 
-Obar and Oeldorf-Hirsch’s article “The Biggest Lie on the Internet” studies how users interact with privacy policies and terms of service. The title refers to the common online behavior of clicking “I agree” even though users have not actually read or understood the policy. Their empirical study found that many users ignored privacy policies and terms of service when joining a fictitious social networking service. This finding challenges the assumption that clicking agreement represents informed consent.
+Obar and Oeldorf-Hirsch [-@obar2020] study how users interact with privacy policies and terms of service. The title refers to the common online behavior of clicking “I agree” even though users have not actually read or understood the policy. Their empirical study found that many users ignored privacy policies and terms of service when joining a fictitious social networking service. This finding challenges the assumption that clicking agreement represents informed consent.
 
 This article is useful because it adds empirical support to the critique of notice-and-consent. Solove explains the theoretical limits of privacy self-management, while Obar and Oeldorf-Hirsch show that users often do not engage with privacy policies in practice. The problem is not only that policies are hard to understand. The problem is also that users often skip them entirely because they want to access the service quickly or because reading the policy seems too burdensome.
 
@@ -40,7 +40,7 @@ For this project, Obar and Oeldorf-Hirsch support the argument that meaningful i
 
 ## Nissenbaum: Privacy as Contextual Integrity
 
-Helen Nissenbaum’s article “Privacy as Contextual Integrity” provides a different but very important way to think about privacy. Nissenbaum argues that privacy is not only about whether information is secret or public. Instead, privacy depends on whether information flows appropriately within a specific social context. According to contextual integrity, a privacy problem occurs when information moves in ways that violate the norms or expectations of the context in which it was originally shared.
+Nissenbaum [-@nissenbaum2004] provides a different but very important way to think about privacy. She argues that privacy is not only about whether information is secret or public. Instead, privacy depends on whether information flows appropriately within a specific social context. According to contextual integrity, a privacy problem occurs when information moves in ways that violate the norms or expectations of the context in which it was originally shared.
 
 This idea is very important for reproductive health apps. When users enter data into a menstrual tracking app, they may believe they are sharing that information for a specific purpose: tracking cycles, predicting ovulation, understanding symptoms, monitoring pregnancy, or receiving health insights. The original context is personal health management. However, if related data flows into advertising systems, analytics platforms, research partnerships, employer benefit programs, health plan services, or commercial data products, the information may move beyond the context users expected.
 
@@ -54,13 +54,13 @@ For this project, contextual integrity supports the idea that privacy policies s
 
 After reviewing these four sources, my understanding is that the main issue in this project is not simply privacy policy existence. The deeper issue is whether privacy policies can actually support meaningful informed consent in a high-sensitivity data context. These four sources work together to explain why that is difficult.
 
-- Solove helps me understand the weakness of privacy self-management. His argument shows that privacy systems often depend too much on individual users to read, understand, and manage complex data practices. I apply this to Flo, Clue, and Ovia by arguing that users should not be expected to fully manage reproductive health privacy simply by reading long privacy policies.
+Solove helps me understand the weakness of privacy self-management. His argument shows that privacy systems often depend too much on individual users to read, understand, and manage complex data practices. I apply this to Flo, Clue, and Ovia by arguing that users should not be expected to fully manage reproductive health privacy simply by reading long privacy policies.
 
-- McDonald and Cranor help me understand the reading burden. Their work shows that privacy policies create a real time cost. I apply this by looking at whether each app’s policy is readable, organized, and usable. This connects to my coding category about plain-language summaries and policy structure.
+McDonald and Cranor help me understand the reading burden. Their work shows that privacy policies create a real time cost. I apply this by looking at whether each app’s policy is readable, organized, and usable. This connects to my coding category about plain-language summaries and policy structure.
 
-- Obar and Oeldorf-Hirsch help me understand why clicking “I agree” is not enough. Their study shows that users often ignore privacy policies and terms of service. I apply this by arguing that formal agreement does not prove meaningful consent, especially when the data includes menstrual cycle information, pregnancy data, sexual activity, symptoms, and health conditions.
+Obar and Oeldorf-Hirsch help me understand why clicking “I agree” is not enough. Their study shows that users often ignore privacy policies and terms of service. I apply this by arguing that formal agreement does not prove meaningful consent, especially when the data includes menstrual cycle information, pregnancy data, sexual activity, symptoms, and health conditions.
 
-- Nissenbaum helps me understand why context matters. Her theory of contextual integrity shows that privacy depends on appropriate information flows. I apply this by asking whether reproductive health data stays within the expected context of personal health tracking or moves into other contexts such as advertising, analytics, research, employer benefits, health plans, or commercial partnerships.
+Nissenbaum helps me understand why context matters. Her theory of contextual integrity shows that privacy depends on appropriate information flows. I apply this by asking whether reproductive health data stays within the expected context of personal health tracking or moves into other contexts such as advertising, analytics, research, employer benefits, health plans, or commercial partnerships.
 
 Together, these sources help me operationalize “meaningful informed consent.” In this project, I do not treat informed consent as simply the existence of a privacy policy or the user’s click on an agreement button. Instead, I treat meaningful informed consent as something that depends on whether users can clearly understand:
 
@@ -85,10 +85,5 @@ Together, these sources support the central argument of this project: a privacy 
 
 ## References
 
-McDonald, A. M., & Cranor, L. F. (2008). The cost of reading privacy policies. *I/S: A Journal of Law and Policy for the Information Society, 4*(3), 543–568. https://lorrie.cranor.org/pubs/readingPolicyCost-authorDraft.pdf
-
-Nissenbaum, H. (2004). Privacy as contextual integrity. *Washington Law Review, 79*(1), 119–158. https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/
-
-Obar, J. A., & Oeldorf-Hirsch, A. (2020). The biggest lie on the Internet: Ignoring the privacy policies and terms of service policies of social networking services. *Information, Communication & Society, 23*(1), 128–147. https://www.tandfonline.com/doi/full/10.1080/1369118X.2018.1486870
-
-Solove, D. J. (2013). Privacy self-management and the consent dilemma. *Harvard Law Review, 126*, 1880–1903. https://harvardlawreview.org/print/vol-126/introduction-privacy-self-management-and-the-consent-dilemma/
+::: {#refs}
+:::

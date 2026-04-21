@@ -2,6 +2,8 @@ project:
   type: website
   output-dir: docs
 
+bibliography: references.bib
+
 website:
   title: "DSAN 5450- Jiahui Liu"
   navbar:
@@ -25,7 +27,6 @@ website:
         text: Results
       - href: Policy.qmd
         text: "Policy Recommendation"
-
   
 format:
   html:
