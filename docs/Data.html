@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -216,8 +236,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="rationale-for-case-selection" class="level3">
 <h3 class="anchored" data-anchor-id="rationale-for-case-selection">Rationale for Case Selection</h3>
-<p>Flo, Clue, and Ovia were selected because they represent widely recognized examples of femtech and reproductive health applications. Each app is connected to menstrual, fertility, pregnancy, or reproductive health tracking, and each collects information that may be highly sensitive. These apps are especially relevant for a data ethics analysis because the information users enter into them may include menstrual cycle patterns, pregnancy status, fertility goals, symptoms, sexual activity, physical health, mental health, and other intimate details.</p>
-<p>The three apps also provide useful variation for comparison. Flo’s policy is detailed and includes specific discussion of advertising and analytics partners, such as AppsFlyer, Firebase, and TikTok Ad Manager. Clue’s policy is more clearly structured around account data, usage data, and health data, and repeatedly emphasizes that tracked health data is not shared with advertisers. Ovia’s policy has the broadest scope because it covers fertility, pregnancy, parenting, health coaching, employer or health-plan sponsored services, deidentified data, aggregated data, and research-related uses. Comparing these three policies makes it possible to examine not only whether privacy disclosures exist, but also how clear, specific, and usable those disclosures are.</p>
+<p>Flo, Clue, and Ovia were selected because they are highly visible and influential platforms within the broader femtech ecosystem. This is important in a rapidly growing market: Grand View Research estimates that the global femtech market was worth about USD 39.29 billion in 2024 and is expected to continue expanding quickly through 2030 <span class="citation" data-cites="grandview2025">(<a href="#ref-grandview2025" role="doc-biblioref">Grand View Research 2025</a>)</span>. Because femtech is scaling rapidly, privacy practices in major apps are likely to affect a large and growing number of users.</p>
+<p>These three apps were also chosen because they represent different large-scale reproductive health data environments. Flo states that more than 430 million members have used the app, indicating very broad global reach <span class="citation" data-cites="floabout2025">(<a href="#ref-floabout2025" role="doc-biblioref">Flo Health 2025</a>)</span>. Clue reports more than 100 million app downloads and presents itself as a leading cycle-tracking platform <span class="citation" data-cites="clueabout2025">(<a href="#ref-clueabout2025" role="doc-biblioref">Clue 2025</a>)</span>. Ovia states that it has supported more than 22 million women and families on their reproductive health journeys and operates not only as a consumer app but also through institutional contexts linked to employers, health plans, and care systems <span class="citation" data-cites="oviaabout2025">(<a href="#ref-oviaabout2025" role="doc-biblioref">Ovia Health by Labcorp 2025</a>)</span>. Together, these apps provide strong comparative cases because they combine large user reach with different organizational models: direct-to-consumer cycle tracking, subscription-based and privacy-focused reproductive health support, and institution-linked fertility, pregnancy, and parenting services.</p>
 <p>This sample is not intended to represent every femtech app on the market. Instead, the purpose is to conduct a focused comparative textual analysis of three prominent cases. The sample is appropriate for this project because the goal is not to make a statistical claim about all femtech companies, but to analyze how privacy policy language operates in a high-sensitivity data context.</p>
 </section>
 <section id="data-collection-procedure" class="level3">
@@ -331,10 +351,24 @@ ul.task-list li input[type="checkbox"] {
 <p>In summary, this project analyzes the privacy policies of Flo, Clue, and Ovia as textual data. It uses comparative textual analysis to examine how each app describes sensitive reproductive health data, third-party sharing, advertising, analytics, retention, and user choices. The analysis is guided by the course concept of operationalization: rather than assuming that the existence of a privacy policy equals informed consent, this project evaluates whether each policy provides clear, specific, and usable disclosure. This approach allows the project to compare formal privacy disclosure with the stronger ethical standard of meaningful informed consent.</p>
 
 
+
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-clueabout2025" class="csl-entry" role="listitem">
+Clue. 2025. <span>“Clue: Period &amp; Cycle Tracker for iOS and Android.”</span> <a href="https://helloclue.com/">https://helloclue.com/</a>.
+</div>
+<div id="ref-floabout2025" class="csl-entry" role="listitem">
+Flo Health. 2025. <span>“Flo on Google Play.”</span> <a href="https://play.google.com/store/apps/details?hl=en_US&amp;id=org.iggymedia.periodtracker">https://play.google.com/store/apps/details?hl=en_US&amp;id=org.iggymedia.periodtracker</a>.
+</div>
+<div id="ref-grandview2025" class="csl-entry" role="listitem">
+Grand View Research. 2025. <span>“FemTech Market Size, Share &amp; Growth Analysis Report, 2030.”</span> <a href="https://www.grandviewresearch.com/industry-analysis/femtech-market-report">https://www.grandviewresearch.com/industry-analysis/femtech-market-report</a>.
+</div>
+<div id="ref-oviaabout2025" class="csl-entry" role="listitem">
+Ovia Health by Labcorp. 2025. <span>“Ovia Health by Labcorp: Expanding the Future of Women’s Health.”</span> <a href="https://www.oviahealth.com/blog/ovia-health-by-labcorp-expanding-the-future-of-womens-health-2/">https://www.oviahealth.com/blog/ovia-health-by-labcorp-expanding-the-future-of-womens-health-2/</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

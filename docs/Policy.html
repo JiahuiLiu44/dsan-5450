@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -152,12 +172,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Policy Recommendation</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -206,6 +220,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>The findings of this project show that Flo, Clue, and Ovia all provide formal privacy disclosures, but formal disclosure alone is not enough to guarantee meaningful informed consent. Each app explains some aspects of data collection, third-party sharing, advertising, analytics, retention, and user choices. However, the policies are still long, complex, and difficult for ordinary users to fully understand. This is especially concerning because femtech apps collect highly sensitive reproductive health data, including menstrual cycle information, fertility data, pregnancy information, symptoms, sexual activity, physical and mental health information, and in some cases child-related or employer-related data.</p>
+<p>These recommendations are especially important because the apps analyzed in this project are not niche products. They operate in a fast-growing femtech market and collectively reach very large user populations. Grand View Research estimates that the global femtech market was valued at USD 39.29 billion in 2024 and is projected to grow rapidly through 2030 <span class="citation" data-cites="grandview2025">(<a href="#ref-grandview2025" role="doc-biblioref">Grand View Research 2025</a>)</span>. At the app level, Flo reports more than 430 million members, Clue reports more than 100 million app downloads, and Ovia reports supporting more than 22 million women and families <span class="citation" data-cites="floabout2025 clueabout2025 oviaabout2025">(<a href="#ref-floabout2025" role="doc-biblioref">Flo Health 2025</a>; <a href="#ref-clueabout2025" role="doc-biblioref">Clue 2025</a>; <a href="#ref-oviaabout2025" role="doc-biblioref">Ovia Health by Labcorp 2025</a>)</span>. As a result, stronger privacy disclosure standards in femtech would have significant real-world implications, affecting not only individual users but also the broader governance of reproductive health data at scale.</p>
 <p>The policy recommendations below are based on the central finding of this project: <strong>privacy policies should not be treated as equivalent to meaningful informed consent.</strong> Meaningful consent requires disclosures that are clear, specific, readable, and usable. In the context of femtech apps, regulators and companies should move beyond long legal privacy policies and create stronger standards for reproductive health data transparency.</p>
 <section id="require-standardized-plain-language-privacy-summaries" class="level2">
 <h2 class="anchored" data-anchor-id="require-standardized-plain-language-privacy-summaries">Require Standardized Plain-Language Privacy Summaries</h2>
@@ -930,9 +945,23 @@ ul.task-list li input[type="checkbox"] {
 <p>Overall, these recommendations would make femtech privacy policies more specific, comparable, and user-centered. They would also better align privacy disclosure with the sensitivity of reproductive health data. Meaningful informed consent should not depend on whether a user can interpret a long legal document. It should depend on whether the company provides clear, structured, and actionable information about how sensitive data is collected, shared, used, retained, and protected.</p>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-clueabout2025" class="csl-entry" role="listitem">
+Clue. 2025. <span>“Clue: Period &amp; Cycle Tracker for iOS and Android.”</span> <a href="https://helloclue.com/">https://helloclue.com/</a>.
+</div>
+<div id="ref-floabout2025" class="csl-entry" role="listitem">
+Flo Health. 2025. <span>“Flo on Google Play.”</span> <a href="https://play.google.com/store/apps/details?hl=en_US&amp;id=org.iggymedia.periodtracker">https://play.google.com/store/apps/details?hl=en_US&amp;id=org.iggymedia.periodtracker</a>.
+</div>
+<div id="ref-grandview2025" class="csl-entry" role="listitem">
+Grand View Research. 2025. <span>“FemTech Market Size, Share &amp; Growth Analysis Report, 2030.”</span> <a href="https://www.grandviewresearch.com/industry-analysis/femtech-market-report">https://www.grandviewresearch.com/industry-analysis/femtech-market-report</a>.
+</div>
+<div id="ref-oviaabout2025" class="csl-entry" role="listitem">
+Ovia Health by Labcorp. 2025. <span>“Ovia Health by Labcorp: Expanding the Future of Women’s Health.”</span> <a href="https://www.oviahealth.com/blog/ovia-health-by-labcorp-expanding-the-future-of-womens-health-2/">https://www.oviahealth.com/blog/ovia-health-by-labcorp-expanding-the-future-of-womens-health-2/</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -183,6 +203,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Femtech applications have become an important part of digital health. Apps such as Flo, Clue, and Ovia allow users to track menstrual cycles, fertility windows, pregnancy, symptoms, sexual activity, physical health, mental health, and other reproductive health information. These apps can provide useful services, such as cycle predictions, ovulation estimates, pregnancy support, personalized health insights, and reminders. For many users, they may also create a sense of control over their bodies and health decisions.</p>
+<p>The broader femtech sector is also economically and socially significant. According to Grand View Research, the global femtech market was valued at approximately USD 39.29 billion in 2024 and is projected to reach USD 97.25 billion by 2030, with a compound annual growth rate of about 16.37% from 2025 to 2030 <span class="citation" data-cites="grandview2025">(<a href="#ref-grandview2025" role="doc-biblioref">Grand View Research 2025</a>)</span>. This means that privacy and consent problems in femtech are not marginal issues. They affect a large and rapidly expanding digital health market with growing real-world consequences for millions of users. As femtech becomes more integrated into everyday reproductive health management, the quality of privacy disclosure becomes increasingly important.</p>
 <p>However, the data collected by these apps is not ordinary app data. Menstrual cycle information, fertility goals, pregnancy status, symptoms, sexual activity, and reproductive health notes are highly sensitive. These data points can reveal intimate details about a person’s body, health, sexuality, family planning, and life circumstances. Because of this sensitivity, femtech apps raise important questions about privacy, consent, and data governance.</p>
 <p>In digital platforms, privacy policies are often used as the main mechanism for informing users about data practices. Companies publish privacy policies to explain what data they collect, how they use it, whether they share it with third parties, how long they keep it, and what choices users have. In theory, these policies support informed consent. Users are expected to read the policy, understand the company’s data practices, and decide whether to use the service.</p>
 <p>In practice, privacy policies often do not function this way. They can be long, complex, technical, and legalistic. They may also use broad or ambiguous phrases such as “may share,” “legitimate interests,” “partners,” “service providers,” “business purposes,” “improve our services,” or “as permitted by law.” These phrases may be useful for companies because they provide flexibility, but they may not give users a clear understanding of how their data actually moves through advertising, analytics, research, service provider, or institutional systems.</p>
@@ -198,7 +219,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-grandview2025" class="csl-entry" role="listitem">
+Grand View Research. 2025. <span>“FemTech Market Size, Share &amp; Growth Analysis Report, 2030.”</span> <a href="https://www.grandviewresearch.com/industry-analysis/femtech-market-report">https://www.grandviewresearch.com/industry-analysis/femtech-market-report</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
